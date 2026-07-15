@@ -408,7 +408,7 @@ function drawDebugPanel() {
 
   let panelX = 16;
   let panelY = 16;
-  let panelW = 220;
+  let panelW = 230;
   let panelH = 140;
 
   fill(0, 0, 0, 200);
