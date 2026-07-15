@@ -1,13 +1,10 @@
 // ============================================================
-// Week 9 Example 3 — Higher or Lower
+// Week 9 — Higher or Lower
 // ============================================================
 // A card guessing game across 3 JSON-driven levels.
 // A card is shown face up. Guess whether the next card in
 // the deck is higher or lower. Reach the target score to
 // advance to the next level. Guess wrong and it's game over.
-//
-// This example has NO debug panel.
-// Your job in the side quest is to add one.
 //
 // FILE STRUCTURE:
 //   sketch.js        — all game logic
@@ -423,7 +420,7 @@ function drawDebugPanel() {
   fill(240);
   textSize(14);
   textAlign(LEFT);
-  text("Debug Panel", panelX + 14, panelY + 24);
+  text("Debug Panel (D to toggle)", panelX + 14, panelY + 24);
 
   fill(190);
   textSize(12);
